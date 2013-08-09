@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/08/2013, 17:20:00
+    Author     : maykon
+*/
+.body {
+    width: 100%;
+    height:100%;
+    margin: auto;
+    background-image: url("../img/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+.jornada {
+    position: fixed;
+    top: 18%;
+    width: 97%;
+    height: 8%;
+}
+
+.tabela {
+    position: fixed;
+    top: 27%;
+    width: 97%;
+    height: 62%;
+    overflow: auto;
+}
+
+.rodape {
+    position: fixed;
+    top: 90%;
+    width: 97%;
+    height: 8%;
+}
+
+.topo1 {
+    position: fixed;
+    width: 15%;
+    height: 8%;
+}
+
+.topo2 {
+    position: fixed;
+    width: 70%;
+    top: 2%;
+    height: 5%;
+    left: 15%;
+    text-align: center;
+}
+.topo3 {
+    position: fixed;
+    left: 85%;
+    width: 15%;
+    height: 8%;
+}
+
+.mes1 {
+    position: fixed;
+    width: 15%;
+    top: 9%;
+    height: 8%;
+}
+
+.mes2 {
+    position: fixed;
+    width: 70%;
+    top: 9%;
+    height: 8%;
+    left: 15%;
+    text-align: center;
+}
+.mes3 {
+    position: fixed;
+    left: 85%;
+    width: 15%;
+    top: 9%;
+    height: 8%;
+}
+
+.tabelaMarcacao {
+    width: 100%;
+    height: 30%;
+    display: table;
+}

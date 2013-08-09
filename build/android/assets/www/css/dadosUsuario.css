@@ -1,0 +1,48 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 07/08/2013, 14:42:11
+    Author     : maykon
+*/
+.bodyDadosUsuario {
+    width: 100%;
+    height:100%;
+    margin: auto;
+    background-image: url("../img/fundo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+
+.imagem {
+    width: 97%;
+    height: 28%;
+    text-align: center;
+    position: fixed;
+    top:12%; 
+}
+
+.infoUsuario {
+    top: 42%;
+    text-align: justify;
+    position: fixed;
+    width: 87%;
+    height: 20%;
+    left: 10%;
+}
+
+.botoesUsuario {
+    width: 97%;
+    height: 34%;
+    left: 2%;
+    position: fixed;
+    text-align: center;
+    top: 61%;
+}
+
+.botoes {
+    width: 300px; 
+    height: 30px;
+}

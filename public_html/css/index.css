@@ -1,0 +1,30 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 06/08/2013, 17:18:46
+    Author     : maykon
+*/
+.TelaPrincipal {
+    text-align: center;
+    position: relative;
+    top:30%;
+}
+.bodyHtml {
+    width: 100%;
+    height:100%;
+    margin: auto;
+    background-image: url("../img/Fundo3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%, 100%;
+}
+.edits {
+    width: 300px;
+    height: 30px;
+}
+.botoes {
+    width: 300px; 
+    height: 50px;
+}

@@ -1,0 +1,53 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="../css/cartaoPonto.css" type="text/css"/>
+        <link rel="stylesheet" href="../css/componentes.css" type="text/css"/>
+
+        <title>Cartão Ponto</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width">
+        
+        <script src="../js/jquery 1.10.2.js"></script>
+        <script src="../js/cartaoPonto.js"></script>
+        <script src="../js/lawnchair.js"></script>
+        
+    </head>
+    <body class="body">
+        
+        <div class="topo1"> <input type="submit" value="V" id="btVoltar" class="topButtonBack"/> </div>
+        <div class="topo2"> Cartão Ponto </div>
+        <div class="topo3"><input type="submit" value="-" id="btMenu" class="topButtonMenu"/></div>
+        
+        <div class="mes1"><input type="submit" value="<<" id="btVoltarMes" class="btFlechaDuplaVoltar"/></div>
+        <div class="mes2" id="mes2"><label id="mesCartao"> MêS </label></div>
+        <div class="mes3"><input type="submit" value=">>" id="btAdiantarMes" class="btFlechaDuplaAdiante"/></div>
+        
+        <div class="jornada"></div>
+        
+        <div class="tabela" id="tabela">
+            <table border="1" class="tabelaMarcacao" id="tb">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Marcações</th>
+                        <th>Saldo</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+            </table>
+
+        </div>
+        
+        <div class="rodape"></div>
+        
+        
+    </body>
+</html>
